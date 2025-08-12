@@ -20,3 +20,63 @@ export default function Education() {
         </section>
     );
 }
+
+
+export default function Experience(){
+    return (
+
+    )
+}
+
+
+export default function Projects(){
+    return(
+        <section>
+            <h3 className="projects-1">
+
+            </h3>
+            <h3 className="projects-2">
+
+            </h3>
+            <h3 className="projects-3">
+
+            </h3>
+        </section>
+    )
+}
+
+export default function Additional() {
+    return (
+        <section>
+            <h2>Additional Information</h2>
+            <div className="additional-container">
+                <div>
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Software</h3>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>PyCharm</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Activities</h3>
+                    <ul>
+                        <li>Computer Science Club</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    );
+}

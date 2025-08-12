@@ -16,3 +16,22 @@ section {
 .edu-date {
     font-weight: bold;
 }
+
+
+/* Additional Info Component */
+
+.additional-container {
+    display: flex;
+    justify-content: space-between; /* space between columns */
+    gap: 2rem; /* optional spacing between columns */
+}
+
+.additional-container h3 {
+    margin-bottom: 0.5rem;
+}
+
+.additional-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
