@@ -29,21 +29,41 @@ export default function Experience(){
 }
 
 
-export default function Projects(){
-    return(
+export default function Projects() {
+    return (
         <section>
-            <h3 className="projects-1">
+            <h2>Projects</h2>
 
-            </h3>
-            <h3 className="projects-2">
+            <div className="project">
+                <h3>Linear Regression</h3>
+                <ul>
+                    <li>Built a linear regression model to analyze the relationship between student test scores and hours studied</li>
+                    <li>Utilized Python standard libraries to preprocess data, perform EDA, and implement the model</li>
+                    <li>Overcame algorithm challenges by learning gradient descent implementation details</li>
+                </ul>
+            </div>
 
-            </h3>
-            <h3 className="projects-3">
+            <div className="project">
+                <h3>Pong Project Game</h3>
+                <ul>
+                    <li>Developed a C++ Pong game to enhance programming skills and understanding of game mechanics</li>
+                    <li>Utilized Raylib to implement visuals and gameplay mechanics</li>
+                    <li>Implemented paddle controls, ball physics, and scoring systems for engaging gameplay</li>
+                </ul>
+            </div>
 
-            </h3>
+            <div className="project">
+                <h3>Space Ship 1v1 Shooter Game</h3>
+                <ul>
+                    <li>Designed and implemented shooting mechanics, bullet physics, and collision detection in Python</li>
+                    <li>Utilized pygame for visuals, sound effects, and gameplay elements</li>
+                    <li>Programmed responsive player controls ensuring smooth gameplay</li>
+                </ul>
+            </div>
         </section>
-    )
+    );
 }
+
 
 export default function Additional() {
     return (
