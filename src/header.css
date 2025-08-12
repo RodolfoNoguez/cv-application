@@ -1,1 +1,7 @@
 
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    gap: 1rem;
+}

@@ -1,4 +1,4 @@
-export default function Education() {
+export function Education() {
     return (
         <section>
             <h2>Education</h2>
@@ -22,7 +22,7 @@ export default function Education() {
 }
 
 
-export default function Experience() {
+export function Experience() {
     return (
       <section>
         <h2>Leadership & Work Experience</h2>
@@ -41,7 +41,7 @@ export default function Experience() {
   
 
 
-export default function Projects() {
+export function Projects() {
     return (
         <section>
             <h2>Projects</h2>
@@ -77,7 +77,7 @@ export default function Projects() {
 }
 
 
-export default function Additional() {
+export function Additional() {
     return (
         <section>
             <h2>Additional Information</h2>
