@@ -22,11 +22,23 @@ export default function Education() {
 }
 
 
-export default function Experience(){
+export default function Experience() {
     return (
-
-    )
-}
+      <section>
+        <h2>Leadership & Work Experience</h2>
+        <div>
+          <h3>Walmart</h3>
+          <p>Associate</p>
+          <ul>
+            <li>Demonstrated the ability to work well in team environments and independent settings.</li>
+            <li>Learned skills necessary to complete tasks quickly.</li>
+            <li>Proactively recognized and addressed challenges, implementing solutions without waiting for direction.</li>
+          </ul>
+        </div>
+      </section>
+    );
+  }
+  
 
 
 export default function Projects() {
